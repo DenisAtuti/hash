@@ -1,0 +1,296 @@
+body{
+    font-family: 'Sniglet', cursive;
+    font-weight: light;
+    background-color: #F9F9F9;
+}
+.carousel-item img{
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+}
+.carousel-item:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.3);
+  }
+.carousel{
+    height: 95vh;
+}
+
+.carousel-caption{
+    height: 50vh;
+    text-align: center;
+    
+}
+
+.carousel-caption h2{
+    color:white;
+    font-size: 100px;
+    margin-bottom: 30px;
+
+}
+
+.carousel-caption a{
+    text-decoration: none;
+    color:white;
+    background-color:#339980;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+.starter{
+    position:absolute;
+    color: white;
+    font-size: 30px;
+    top:30px;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    
+}
+.starter span{
+    margin-right: 20%;
+}
+.starter .dropdown{
+    display: inline;
+    margin-left: 20%;
+}
+
+ /* ..............................NAVIGATION................  */
+.menu {
+    display: none;
+    width: 100%;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: #339980;
+    font-size: large;
+    text-align: center;
+    margin: 0 20px;
+}
+
+/* .................................SERVICES....................  */
+.mobile{
+    display:none;
+}
+.service div{
+    /* background-color: white; */
+}
+.service img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+/* ..........................................client........................ */
+.image-icon{
+    height: 100px;
+}
+
+/* ..........................................CONTACTS FORM...................... */
+
+input[type=text],select,textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    /* background-color: green; */
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .site-footer li{
+      list-style: none;
+  }
+  .site-footer a{
+      text-decoration: none;
+      color: #4CAF50;
+  }
+
+  /* ....................................FORM HTML............................ */
+
+  .form a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+  }
+
+  #thank-you-message {
+    display: none;
+  }
+  
+  #thank-you-message.show {
+    display: block;
+  }
+
+@media only screen and (max-width: 1400px) {
+    .carousel-item img{
+        height: 60vh;
+    }
+    .carousel{
+        height: 60vh;
+    } 
+    .carousel-caption{
+        height: 30vh;
+        text-align: center;
+        
+    }
+  
+}
+
+@media only screen and (max-width: 1000px) {
+    .carousel-item img{
+        height: 50vh;
+    }
+    .carousel{
+        height: 50vh;
+    } 
+    .carousel-caption{
+        height: 25vh;
+        text-align: center;
+        
+    }
+    .carousel-caption h2{
+        color:white;
+        font-size: 60px;
+        margin-bottom: 30px;
+    
+    }
+  
+}
+@media only screen and (max-width: 800px) {
+    .carousel-item img{
+        height: 40vh;
+    }
+    .carousel{
+        height: 40vh;
+    } 
+    .carousel-caption{
+        height: 20vh;
+        text-align: center;
+        
+    }
+    .carousel-caption h2{
+        color:white;
+        font-size: 40px;
+        margin-bottom: 20px;
+    
+    }
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-item img{
+        height: 30vh;
+    }
+    .carousel{
+        height: 30vh;
+    } 
+    .carousel-caption{
+        height: 15vh;
+        text-align: center;
+        
+    }
+    .carousel-caption h2{
+        color:white;
+        font-size: 30px;
+        margin-bottom: 20px;
+    
+    }
+    .carousel-caption a{
+        background-color:#339980;
+        padding: 5px 40px;
+        border-radius: 5px;
+    }
+    .form p{
+        font-size: 35px;
+    }
+  
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel-item img{
+        height: 35vh;
+    }
+
+    .carousel-item a{
+        display: none;
+    }
+
+    .carousel{
+        height: 35vh;
+    } 
+    .carousel-caption{
+        height: 15vh;
+        text-align: center;
+        
+    }
+   
+    .carousel-caption h2{
+        font-size: 30px;
+        margin-bottom: 0px;
+    
+    }
+    
+    .carousel-caption a{
+        padding: 0px 30px;
+        border-radius: 5px;
+    }
+
+    .starter{
+        font-size: 20px;
+        top:30px;
+        padding: 10px;
+        
+    }
+    .starter span{
+        margin-left: -15%;
+        /* float: left; */
+    }
+    .starter .dropdown{
+        margin-left: 0%;
+    }
+    .desktop{
+        display:none
+    }
+    .menu{
+        display:block;
+    }
+    .menu li a{
+        font-size: 9px;
+        margin: 0;
+    }
+    .mobile{
+        display:block;
+    }
+    .form p{
+        font-size: 25px;
+    }
+
+}
